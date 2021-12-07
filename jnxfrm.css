@@ -1,0 +1,90 @@
+.jeanfirma {
+  width: 300px;
+  height: 220px;
+  margin: 0 auto;
+  border: 10px solid #111;
+  overflow: hidden;
+  outline: 1px dotted #fff;
+  outline-offset: -10px;
+  transition: 0.4s;
+}
+
+.jeanfirma #bgimg {
+  background: url(https://i.imgur.com/XWsKjox.png);
+  width: 300px;
+  height: 220px;
+  background-position: top;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.jeanfirma #bgimg #bgoverlay {
+  width: 300px;
+  height: 220px;
+  background-color: #7e7487;
+  mix-blend-mode: overlay;
+  backdrop-filter: grayscale(1) brightness(80%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.jeanfirma #bgimg .jeanquotes {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  font-family: inconsolata;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 210px;
+}
+
+.jeanfirma #bgimg .jeanquotes #quote1 {
+  letter-spacing: 1px;
+  width: 100px;
+  top: 135px;
+  left: 35px;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.jeanfirma #bgimg .jeanquotes #quote2 {
+  letter-spacing: 1px;
+  position: absolute;
+  transition: 0.4s;
+  bottom: -25px;
+  transition: 0.4s;
+}
+
+.jeanfirma #bgimg .jeanquotes #quote1 b,
+.jeanfirma #bgimg .jeanquotes #quote2 b {
+  color: #7e7487;
+  background: #fff;
+  padding: 0px 2px;
+}
+
+.jeanfirma:hover {
+  border: 10px solid #cccccc66;
+}
+
+.jeanfirma:hover #bgimg {
+  background-position: bottom;
+}
+
+.jeanfirma:hover #bgimg #bgoverlay {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.jeanfirma:hover #bgimg .jeanquotes #quote1 {
+  left: -100px;
+}
+
+.jeanfirma:hover #bgimg .jeanquotes #quote2 {
+  bottom: 20px;
+}
