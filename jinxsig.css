@@ -26,7 +26,6 @@
   width: 290px;
   height: 200px;
   box-sizing: border-box;
-  padding: px;
   transition: ease-in-out 0.6s;
   padding: 90px 150px 0px 10px;
 }
@@ -63,9 +62,8 @@
   width: 290px;
   height: 200px;
   box-sizing: border-box;
-  padding: px;
   transition: ease-in-out 0.6s;
-  padding: 64px 58px;
+  padding: 58px 58px;
 }
 .jinxsig3 span {
   display: block;
