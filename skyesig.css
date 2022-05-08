@@ -8,6 +8,7 @@
   overflow: hidden;
   position: relative;
   z-index: 2;
+  
 }
 
 .skydsg br {
@@ -51,7 +52,7 @@
   box-sizing: border-box;
 }
 
-.skydsg .skytxt2 i.ra ra-lightning-bolt {
+.skydsg .skytxt2 i {
   color: var(--skycccolor);
   font-size: 40px;
   position: relative;
