@@ -51,7 +51,7 @@
   box-sizing: border-box;
 }
 
-.skydsg .skytxt2 i.fa-solid.fa-cloud-bolt {
+.skydsg .skytxt2 i.ra ra-lightning-bolt {
   color: var(--skycccolor);
   font-size: 40px;
   position: relative;
