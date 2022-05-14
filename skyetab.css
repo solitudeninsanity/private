@@ -1,5 +1,5 @@
 .tt1.rol1.skye .tattit {
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue'; 
   text-align: center; 
   border-top: 1px solid var(--acento); 
   padding: 0px; 
@@ -10,7 +10,7 @@
 .tt1.rol1.skye .tattit b {
   font-weight: normal; 
   -webkit-text-fill-color: transparent; 
-  -webkit-text-stroke: 0.7px var(--acento);
+  -webkit-text-stroke: 1px var(--acento);
 }
 .tt1.rol1.skye .tatdesc {
   justify-content: center; 
