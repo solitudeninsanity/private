@@ -1,0 +1,54 @@
+.addie {
+  padding: 0;
+  box-sizing: border-box;
+  --acento: rgb(67, 89, 72);
+  --acento2: #728c77;
+  ;
+  --acentext: rgb(199, 153, 166, 0.7);
+  --imagen: url(https://i.imgur.com/2fMrpi1.png);
+}
+
+.addie {
+  width: 310px;
+  height: 230px;
+  overflow: hidden;
+  background: var(--imagen);
+  margin: 0 auto;
+  border: 15px solid black;
+  outline: 1px solid var(--acento);
+}
+
+.addie2 {
+  width: 280px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: rgba(8, 14, 9, 0.8);
+  opacity: 0;
+  font-family: calibri;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  position: relative;
+  top: -300px;
+  transition: 1s;
+}
+
+.addie2 span {
+  font-family: 'calibri';
+  color: var(--acento2);
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.addie:hover .addie2 {
+  opacity: 1;
+  top: inherit;
+  top: -10px;
+}
