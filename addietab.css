@@ -4,6 +4,9 @@
 .addie-tab strong {
   color: var(--groups);
 }
+.addie-tab span {
+  color: #506655;
+}
 .addie-tab {
   max-width: 500px;
   width: 100%;
@@ -42,9 +45,6 @@
   text-transform: uppercase;
   color: #bababa;
   text-align: right;
-}
-.addie-tit span {
-  color: #506655;
 }
 .addie-data {
   width: 100%;
