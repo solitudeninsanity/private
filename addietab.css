@@ -43,6 +43,9 @@
   color: #bababa;
   text-align: right;
 }
+.addie.tit span {
+  color: #506655;
+}
 .addie-data {
   width: 100%;
   border-top: var(--border);
