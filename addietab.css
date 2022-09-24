@@ -14,6 +14,7 @@
   font: 400 12.5px "Fira Sans";
   border: var(--border);
   margin: 0 auto;
+  line-height: 140%;
 }
 .addie-header {
   width: 100%;
