@@ -1,0 +1,66 @@
+.addie-tab {
+  --groups: #506655;
+}
+.addie-tab strong {
+  color: var(--groups);
+}
+.addie-tab {
+  max-width: 500px;
+  width: 100%;
+  background-color: var(--back1);
+  font: 400 12.5px "Fira Sans";
+  border: var(--border);
+  margin: 0 auto;
+}
+.addie-header {
+  width: 100%;
+  height: 100px;
+  padding: 0 40px;
+  border-bottom: var(--border);
+  background-color: var(--back1);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.addie-cont {
+  width: 100%;
+  padding: 50px;
+}
+.addie-ic {
+  max-width: 100px;
+  width: 100%;
+  font-size: 130px;
+  color: var(--groups) !important;
+  opacity: 0.2;
+}
+.addie-tit {
+  max-width: 400px;
+  width: 100%;
+  font-family: "Abril Fatface", cursive;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #bababa;
+  text-align: right;
+}
+.addie-data {
+  width: 100%;
+  border-top: var(--border);
+  font: 700 10px "IBM Plex Mono";
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #bababa;
+  font-size: 10px;
+  text-align: right;
+  padding: 22px 40px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.addie-data i {
+  font-size: 9px;
+  color: var(--groups);
+  margin-left: 10px;
+  margin-right: 3px;
+}
